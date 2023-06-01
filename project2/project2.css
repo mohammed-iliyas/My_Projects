@@ -1,0 +1,196 @@
+
+body{
+    margin: 0%;
+    font-size: 20.8px;
+    font-family:Arial, Helvetica, sans-serif;
+  
+}
+/* navigation bar */
+nav ul{
+    list-style: none;
+    background-color: rgb(29, 27, 27);
+    display: flex;
+    margin: 0%;
+    padding: 5px;
+    flex-wrap:wrap;
+ 
+}
+ul li{
+    padding: 10px;
+    font-size:medium;
+    color:#f4f4f4;
+}
+ul li:hover{
+    background-color:#5e5e5e; 
+}
+
+/* header area */
+
+header div{
+    background-image:url('./images/showcase.jpeg');
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #ffffff;
+    text-align: center;
+}
+.mytunes-logo{
+    font-size: 64px;
+    font-weight: 700;
+    margin:0em;
+    padding-top: 10%;
+}
+.mytunes-logo-text{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* MAIN AREA */
+.main,.section1-music{
+    background-color:#252529;
+    color: #ffffff;
+    border: 1px solid none;
+    text-align: center;
+    
+}
+.music-logo{
+    margin: 0em;
+    font-size: 40px;
+    font-weight:700;
+    padding-top: 40px;
+}
+.start-your-trail{
+    text-decoration: none;
+    background-color: #8a0916;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 20px;
+    
+}
+.start-your-trail:hover{
+    background-color:#d3071B ;
+
+}
+
+.music-photo-heading{
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+/* SECTION2 MOVIES */
+
+.section2-movie{
+    background-color:#f4f4f4 ;
+    color: #333333;
+    text-align: center;
+    /* margin-top: 60px; */
+}
+.movie-heading{
+
+    margin: 0em;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 51.2px;
+    padding-top:50px;
+    padding-bottom: 30px;
+}
+.movie-p-text{
+    margin-bottom: 30px;
+}
+
+.read-more{
+    position: relative;
+    background-color: #062454;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 20px;
+    border: 1px solid black;
+    height: 26px;
+    width: 72px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.read-more:hover{
+    background-color:#143785 ;
+    border: none;
+}
+.movie-img{
+    margin: 18px;
+
+}
+
+/* SECTION3 ENTERTAINMENT */
+.entertainment-bg{
+    background-image: url('./images/section-bg.jpeg');
+    width:100%;
+    height: 600px;
+    background-position: center;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+.section3-entertainment{
+    color: #f4f4f4;
+    text-align: center;
+}
+.entertainment-heading{
+    margin: 0px;
+    font-size: 32px;
+    padding-top: 15%;
+}
+
+
+/* section gift cards */
+.section4-gift-cards{
+    display: flex;
+    justify-content: center;
+}
+.gift-card-content{
+    border: 1px solid none;
+    height: 401px;
+    width: 580px;
+    font-size: 16px;
+    padding-top: 20px;
+}
+.section4-gift-cards img{
+border: 1px solid none;
+height: 394px;
+ width:auto; 
+margin-top: 20px;
+} 
+.gift-card-content a{
+    text-decoration: none;
+    font-size: 16px;
+}
+/* Footer area */
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:#252529;
+    color: #ffffff;
+}
+footer div{
+    border: 1px solid none;
+    width: 300px;
+    display: flex;
+}
+
+footer div a{
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 16px;
+}
+footer div ul{
+    list-style-type: none;
+}
+
+/* bottem area */
+.footer1,.copyright{
+    text-align: center;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 20px;
+}
